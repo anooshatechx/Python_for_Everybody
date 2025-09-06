@@ -22,19 +22,19 @@ This repository is organized by course folders, each containing detailed summari
 - Functions with data structure manipulation  
 - **Folder:** `Course2-Data-Structures/`
 
-### Course 3 – Using Python to Access Web Data
+### Course 3 – Using Python to Access Web Data (to be added)
 - Working with APIs and web data  
 - Parsing JSON and XML  
 - Handling HTTP requests  
 - **Folder:** `Course3-Web-Data/`
 
-### Course 4 – Using Databases with Python
+### Course 4 – Using Databases with Python (coming soon)
 - Introduction to SQL  
 - Connecting Python with databases  
 - Querying and updating data  
 - **Folder:** `Course4-Databases/`
 
-### Course 5 – Capstone: Python Project
+### Course 5 – Capstone: Python Project (coming soon)
 - Apply all learned concepts in a final project  
 - Combines data structures, functions, APIs, and databases  
 - **Folder:** `Course5-Capstone/`
