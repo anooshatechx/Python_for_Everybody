@@ -14,8 +14,7 @@ This repository is organized by course folders, each containing detailed summari
 - Variables, data types, input/output  
 - Loops and conditional statements  
 - Simple functions and strings  
-- [Folder: Course1-Getting-Started]
-(Course1-Getting-Started/)
+- **Folder:** `Course1-Getting-Started/`
 
 ### Course 2 – Python Data Structures
 - Lists, tuples, dictionaries, sets  
