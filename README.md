@@ -15,7 +15,7 @@ This repository is organized by course folders, each containing detailed summari
 - Loops and conditional statements  
 - Simple functions and strings  
 - **Folder:** `Course1-Getting-Started/`
-- **Folder:**`Notes.md`
+
 ### Course 2 – Python Data Structures
 - Lists, tuples, dictionaries, sets  
 - Using loops and conditionals with data structures  
