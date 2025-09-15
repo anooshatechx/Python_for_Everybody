@@ -40,7 +40,7 @@ PI = 3.14159
 
 > Always use PEMDAS rule for calculations
 
-- *PEMDAS = ( ),^,× ÷ %,+ −*
+- *PEMDAS = ( ), ^, × ÷ %, + −*
 
 > Same-level operators → solve left to right  
 
