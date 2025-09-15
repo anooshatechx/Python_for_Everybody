@@ -37,7 +37,14 @@ PI = 3.14159
   - Power: `**`
   - Division: `/`
   - Remainder (modulus): `%`
-> Always use PDMAS rule for calculations
+
+> Always use PEMDAS rule for calculations
+
+- *PEMDAS = ( ),^,× ÷ %,+ −*
+
+> Same-level operators → solve left to right  
+
+**Example:** 20 ÷ 5 * 2 = (20 ÷ 5) * 2 = 4 * 2 = 8
 
 - **Comparison Operators:**
 ```
