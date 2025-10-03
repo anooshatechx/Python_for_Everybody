@@ -3,7 +3,6 @@
 ## 1. Strings  
 
 ‎-Strings are **sequences of characters**.                      
-
 ‎-Strings are written inside **single `' '` or double `" "` quotes**.                           
 -Strings are **immutable** → once created, they cannot be changed (only new strings can be made).
 
@@ -137,8 +136,8 @@ print(text[0])
 ‎print(point[-1])  # 30
 ```
 
-## Summary  
-‎
+## Summary
+
 ‎**Strings** → immutable text data.                               
 ‎**Files** → read/write persistent data.                               
 ‎**Lists** → key/value,ordered, mutable collections.                        
