@@ -2,11 +2,11 @@
 
 ## 1. Strings  
 
-‎-Strings are **sequences of characters**.  
-‎-Strings are written inside **single `' '` or double `" "` quotes**.  
+‎-Strings are **sequences of characters**.
+‎-Strings are written inside **single `' '` or double `" "` quotes**.
 ‎-Strings are **immutable** → once created, they cannot be changed (only new strings can be made).
 
-‎### Indexing & Length
+### Indexing & Length
 ‎```python
 ‎text = "Hello World"
 ‎
@@ -23,7 +23,7 @@
 ‎print(s[:3])     # "uni"
 ‎```
 
-‎### Common String Methods
+### Common String Methods
 ‎```python
 ‎word = "python"
 ‎
@@ -38,39 +38,35 @@
 
 ‎‎-Python can read and write text files using the `open()` function.  
 ‎-Always **close** the file after use (or use `with`).  
-‎
-### Reading a File
-‎```python
-‎# Open a file in read mode
+
+### Open a file in read mode
+```python
 ‎f = open("sample.txt", "r")
 ‎or 
 ‎with open("sample.txt","r") as f:
-‎
-‎# Read the whole file
-‎print(f.read())
-‎
-‎# Read line by line
+```
+### Read line by line
+```python
 ‎for line in f:
 ‎    print(line.strip())
 ‎
 ‎f.close()
-‎```
+```
 
-‎### Writing a File
-‎```python
-‎# Open in write mode (overwrites file)
+### Writing a File
+```python
 ‎f = open("output.txt", "w")
 ‎f.write("Hello, file!\n")
 ‎f.close()
-‎``` 
+```
 
-‎## 3. Lists
+## 3. Lists
 
 ‎-Lists store **multiple values in order**.  
 ‎-Lists are **mutable** (you can change them).  
 ‎-Written with square brackets `[ ]`.
 
-‎### Creating & Accessing
+### Creating & Accessing
 ‎```python
 ‎numbers = [10, 20, 30, 40]
 ‎
@@ -79,7 +75,7 @@
 ‎print(len(numbers)) # 4
 ‎```
 
-‎### List Operations
+### List Operations
 ‎```python
 ‎nums = [1, 2, 3]
 ‎
@@ -134,8 +130,8 @@
 
 ## Summary  
 ‎
-‎-**Strings** → immutable text data.  
-‎-**Files** → read/write persistent data.  
-‎-**Lists** → key/value,orderedmutablele collections.  
-‎-**Dictionaries** → key-value pairs.  
-‎-**Tuples** → ordered, immutable collections-
+‎**Strings** → immutable text data.  
+‎**Files** → read/write persistent data.  
+‎**Lists** → key/value,orderedmutablele collections.
+‎**Dictionaries** → key-value pairs.
+**Tuples** → ordered, immutable collections
