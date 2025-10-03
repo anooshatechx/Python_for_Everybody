@@ -2,8 +2,9 @@
 
 ## 1. Strings  
 
-‎-Strings are **sequences of characters**.
-‎-Strings are written inside **single `' '` or double `" "` quotes**.
+‎-Strings are **sequences of characters**.                      
+
+‎-Strings are written inside **single `' '` or double `" "` quotes**.                           
 -Strings are **immutable** → once created, they cannot be changed (only new strings can be made).
 
 ### Indexing & Length
@@ -44,7 +45,7 @@ print(text[0])
 
 ## 2. Files  
 
-‎‎-Python can read and write text files using the `open()` function.
+‎‎-Python can read and write text files using the `open()` function.  
 ‎-Always **close** the file after use (or use `with`).  
 
 ### Open a file in read mode
@@ -70,8 +71,8 @@ print(text[0])
 
 ## 3. Lists
 
-‎-Lists store **multiple values in order**.
-‎-Lists are **mutable** (you can change them).
+‎-Lists store **multiple values in order**.                            
+‎-Lists are **mutable** (you can change them).                       
 ‎-Written with square brackets `[ ]`.
 
 ### Creating & Accessing
@@ -94,9 +95,9 @@ print(text[0])
 
 ## 4. Dictionaries 
 
--Dictionaries store data as **key-value pairs**.
-‎-Keys must be **unique & immutable** (strings, numbers, tuples).
-‎-Written with curly braces `{ }`.
+-Dictionaries store data as **key-value pairs**.                      
+‎-Keys must be **unique & immutable** (strings, numbers, tuples).                            
+‎-Written with curly braces `{ }`.   
 ‎-Format is **{key:value}** & **dict [key] = value**
 ‎
 ### Creating & Accessing
@@ -125,7 +126,7 @@ print(text[0])
 
 ## 5. Tuples 
 
-‎‎-Tuples are like lists but **immutable**.
+‎‎-Tuples are like lists but **immutable**.                      
 ‎-Written with parentheses `( )`.  
 ‎
 ### Creating & Accessing
@@ -138,8 +139,8 @@ print(text[0])
 
 ## Summary  
 ‎
-‎**Strings** → immutable text data.
-‎**Files** → read/write persistent data.
-‎**Lists** → key/value,orderedmutablele collections.
-‎**Dictionaries** → key-value pairs.
+‎**Strings** → immutable text data.                               
+‎**Files** → read/write persistent data.                               
+‎**Lists** → key/value,ordered, mutable collections.                        
+‎**Dictionaries** → key-value pairs.                              
 **Tuples** → ordered, immutable collections
