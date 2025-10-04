@@ -21,7 +21,8 @@ This repository is organized by course folders, each containing detailed summari
 - Lists, tuples, dictionaries, sets  
 - Using loops and conditionals with data structures  
 - Functions with data structure manipulation  
-- **Folder:** `Course2-Data-Structures/`
+- **Folder:** `Course2/`
+- [Notes](Course2/notes.md)
 
 ### Course 3 – Using Python to Access Web Data (to be added)
 - Working with APIs and web data  
