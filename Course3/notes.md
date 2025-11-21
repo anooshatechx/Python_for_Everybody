@@ -1,20 +1,20 @@
-‎#Python for Everybody - Course 3 Notes
+‎#**Python for Everybody - Course 3 Notes**
 ‎
-‎##1. Web Scraping & Parsing
+‎##**1. Web Scraping & Parsing**
 ‎- Extract information from webpages automatically.
 ‎
-‎###For Fetching Data:
+‎###*For Fetching Data*:
 ‎- urllib (gets the data from HTML)
 ‎from urllib.request import urlopen
 ‎html = urlopen(url).read()
 ‎
 
-###For Parsing Data:
+###*For Parsing Data*:
 ‎- BeautifulSoup (built-in library) (parses HTML & extract data)
 ‎from bs4 import BeautifulSoup
 ‎soup = BeautifulSoup(html,"html.parse")
 ‎
-‎###Steps:
+‎###**Steps**:
 
 ‎1. Import libraries
 ‎2. Request webpage  
@@ -22,7 +22,7 @@
 ‎4. Parse HTML  
 ‎5. Extract tags/text (what you need)
 ‎
-‎###Basic Example:
+‎###**Basic Example**:
 ‎```python
 ‎from urllib.request import urlopen
 ‎from bs4 import BeautifulSoup
@@ -34,7 +34,7 @@
 ‎for tag in soup('a'):
 ‎    print(tag.get('href',None))
 ‎
-‎### HTML tags:
+‎###**HTML tags**:
 ‎- a & href are fixed by HTML rules
 ‎- a is anchor tags
 ‎- href is where url links are stored
@@ -42,21 +42,21 @@
 ‎
 ‎---
 ‎
-‎##2. JSON
+‎##**2. JSON**
 ‎
 ‎-Most APIs return data in JSON.
 ‎
-‎### JSON to Python:
+‎###*JSON to Python*:
 ‎
 ‎import json
 ‎data = '{"name":"Anoosha"}'
 ‎info = json.loads(data)
 ‎
-‎###Python to  JSON:
+‎###*Python to  JSON*:
 ‎
 ‎json.dumps({'a': 10, 'b': 20})
 ‎
-‎### JSON from URL
+‎###*JSON from URL*:
 ‎
 ‎response = urlopen(url).read()
 ‎info = json.loads(response)
@@ -64,11 +64,11 @@
 ‎
 ‎---
 ‎
-‎🌐 3. APIs
+‎##**3. APIs**
 ‎
 ‎-A service that gives you data when you request it.
 ‎
-‎###Steps:
+‎###**Steps**:
 ‎
 ‎1. API URL and Parameters
 ‎1. Send request
@@ -76,7 +76,7 @@
 ‎3. Parse it
 ‎4. Print the data you want
 ‎
-‎###Example 
+‎###**Example**
 ‎
 ‎import requests
 ‎import json
@@ -87,12 +87,12 @@
 ‎
 ‎info = extract.json()
 ‎
-‎*where exactly it is that you wanna extract
+‎*where exactly it is that you wanna extract*
 ‎print(json.dumps(info,indent=4))
 ‎
 ‎print(info)
 ‎
-‎###Key Terms
+‎###**Key Terms**
 ‎
 ‎1. Endpoint (API URL)
 ‎2. Parameters (Extra info (like address=…))
@@ -102,12 +102,12 @@
 ‎
 ‎‎---
 ‎
-‎🎯 Summary
+**‎🎯 Summary**
 ‎
-‎Web Scraping: Extract HTML data
+*‎Web Scraping*: Extract HTML data
 ‎
-‎JSON: Format for sending & receiving data
+‎*JSON*: Format for sending & receiving data
 ‎
-‎APIs:  Get real online data using Python
+*‎APIs*:  Get real online data using Python
 ‎
 ‎
