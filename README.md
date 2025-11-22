@@ -28,7 +28,8 @@ This repository is organized by course folders, each containing detailed summari
 - Working with APIs and web data  
 - Parsing JSON and XML  
 - Handling HTTP requests  
-- **Folder:** `Course3-Web-Data/`
+- **Folder:** `Course3/`
+- [Notes](Course3/notes.md)
 
 ### Course 4 – Using Databases with Python (coming soon)
 - Introduction to SQL  
