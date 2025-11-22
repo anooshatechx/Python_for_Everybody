@@ -22,11 +22,12 @@
 ```
 
 ### Steps:
+
 1. Import libraries
-‎2. Request webpage
+2. Request webpage
 3. Open & Read the webpage
-‎4. Parse HTML
-‎5. Extract tags/text (what you need)
+4. Parse HTML
+5. Extract tags/text (what you need)
 ‎
 
 ### Basic Example:
@@ -78,16 +79,16 @@ response = urlopen(url).read()
 
 ‎
 ### ‎3.APIs
-‎
-‎-A service that gives you data when you request it.
+
+- A service that gives you data when you request it.
 ‎
 
 ### ‎Steps:
 
-‎1. API URL and Parameters
-‎2. Send request
-‎3. API returns JSON
-‎4. Parse it
+1. API Url and Parameters
+2. ‎Send request3
+3. API returns JSON
+4. Parse it
 5. Print the data you want
 ‎
 ### ‎Example
