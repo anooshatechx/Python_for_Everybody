@@ -120,7 +120,8 @@ response = urlopen(url).read()
 ‎
 
 ## 🎯 Summary
-‎
+
+
 **‎Web Scraping**: Extract HTML data
 
 
