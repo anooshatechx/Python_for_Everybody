@@ -7,7 +7,7 @@
 
 ### For Fetching Data:
 
-‎- *urllib* (gets the data from HTML)
+‎- `urllib` (gets the data from HTML)
 ```python
 ‎from urllib.request import urlopen
 ‎html = urlopen(url).read()
@@ -15,18 +15,17 @@
 
 ### For Parsing Data:
 
-‎- *BeautifulSoup* (built-in library) (parses HTML & extract data)
+‎- `BeautifulSoup` (built-in library) (parses HTML & extract data)
 ```python
 ‎from bs4 import BeautifulSoup
 ‎soup = BeautifulSoup(html,"html.parse")
 ```
 
 ### Steps:
-
 1. Import libraries
 ‎2. Request webpage
 3. Open & Read the webpage
-4. ‎4. Parse HTML
+‎4. Parse HTML
 ‎5. Extract tags/text (what you need)
 ‎
 
@@ -46,9 +45,10 @@
 ‎
 
 ### HTML tags:
-‎- *a* & *href* are fixed by HTML rules
-‎- a is anchor tags
-- href is where url links are stored
+‎- `a` & `href` are *fixed* by HTML rules
+
+‎- `a` is *anchor tags*
+- `href` is where *url links* are stored
 ‎
 ‎
 ## 2.JSON
@@ -88,7 +88,7 @@ response = urlopen(url).read()
 ‎2. Send request
 ‎3. API returns JSON
 ‎4. Parse it
-‎5. Print the data you want
+5. Print the data you want
 ‎
 ### ‎Example
 
@@ -110,11 +110,10 @@ response = urlopen(url).read()
 
 
 ### Key Terms:
-
 1. Endpoint (API URL)
 2. Parameters (Extra info (like address=…))
-‎3. API Key (Your access password)
-‎4. Response (JSON from the server)
+3. API Key (Your access password)
+4. Response (JSON from the server)
 ‎
 
 ‎
@@ -122,8 +121,10 @@ response = urlopen(url).read()
 ## 🎯 Summary
 ‎
 **‎Web Scraping**: Extract HTML data
-‎
+
+
 ‎**JSON**: Format for sending & receiving data
+
 
 **APIs**: Get real online data using Python
 ‎
