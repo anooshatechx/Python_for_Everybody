@@ -23,10 +23,10 @@
 
 ### Steps:
 
-‎1. Import libraries
-‎2. Request webpage  
-‎3. Open & Read the webpage
-‎4. Parse HTML  
+1. Import libraries
+‎2. Request webpage
+3. Open & Read the webpage
+4. ‎4. Parse HTML
 ‎5. Extract tags/text (what you need)
 ‎
 
@@ -46,12 +46,10 @@
 ‎
 
 ### HTML tags:
-‎- a & href are fixed by HTML rules
+‎- *a* & *href* are fixed by HTML rules
 ‎- a is anchor tags
 - href is where url links are stored
 ‎
-‎
-‎---
 ‎
 ## 2.JSON
 ‎
@@ -78,7 +76,6 @@ response = urlopen(url).read()
 ‎info = json.loads(response)
 ```
 
-‎‎---
 ‎
 ### ‎3.APIs
 ‎
@@ -86,7 +83,7 @@ response = urlopen(url).read()
 ‎
 
 ### ‎Steps:
-‎
+
 ‎1. API URL and Parameters
 ‎2. Send request
 ‎3. API returns JSON
@@ -113,14 +110,13 @@ response = urlopen(url).read()
 
 
 ### Key Terms:
-‎
-‎1. Endpoint (API URL)
-‎2. Parameters (Extra info (like address=…))
+
+1. Endpoint (API URL)
+2. Parameters (Extra info (like address=…))
 ‎3. API Key (Your access password)
 ‎4. Response (JSON from the server)
 ‎
-‎
-‎‎---
+
 ‎
 
 ## 🎯 Summary
@@ -128,7 +124,7 @@ response = urlopen(url).read()
 **‎Web Scraping**: Extract HTML data
 ‎
 ‎**JSON**: Format for sending & receiving data
-‎
+
 **APIs**: Get real online data using Python
 ‎
 ‎
