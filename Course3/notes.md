@@ -1,20 +1,25 @@
 # Python for Everybody - Course 3 Notes
 ‎
 ## 1.Web Scraping & Parsing
+
 ‎- Extract information from webpages automatically.
 ‎
 
 ### For Fetching Data:
-‎- urllib (gets the data from HTML)
+
+‎- *urllib* (gets the data from HTML)
+```python
 ‎from urllib.request import urlopen
 ‎html = urlopen(url).read()
-‎
+```
 
 ### For Parsing Data:
-‎- BeautifulSoup (built-in library) (parses HTML & extract data)
+
+‎- *BeautifulSoup* (built-in library) (parses HTML & extract data)
+```python
 ‎from bs4 import BeautifulSoup
 ‎soup = BeautifulSoup(html,"html.parse")
-‎
+```
 
 ### Steps:
 
@@ -26,7 +31,8 @@
 ‎
 
 ### Basic Example:
-‎```python
+
+```python
 ‎from urllib.request import urlopen
 ‎from bs4 import BeautifulSoup
 ‎
@@ -35,13 +41,14 @@
 ‎soup = BeautifulSoup(html, "html.parser")
 ‎
 ‎for tag in soup('a'):
-‎    print(tag.get('href',None)) ```
+‎    print(tag.get('href',None))
+```
 ‎
 
 ### HTML tags:
 ‎- a & href are fixed by HTML rules
 ‎- a is anchor tags
-‎- href is where url links are stored
+- href is where url links are stored
 ‎
 ‎
 ‎---
@@ -52,15 +59,17 @@
 ‎
 
 ### ‎JSON to Python:
-‎```python
+```python
 ‎import json
 ‎data = '{"name":"Anoosha"}'
-‎info = json.loads(data) ```
+‎info = json.loads(data)
+```
 ‎
 
 ### Python to  JSON:
-‎```python
-‎json.dumps({'a': 10, 'b': 20})```
+```python
+‎json.dumps({'a': 10, 'b': 20})
+```
 ‎
 ‎
 ### JSON from URL:
@@ -69,8 +78,7 @@ response = urlopen(url).read()
 ‎info = json.loads(response)
 ```
 
-‎
-‎---
+‎‎---
 ‎
 ### ‎3.APIs
 ‎
@@ -87,7 +95,7 @@ response = urlopen(url).read()
 ‎
 ### ‎Example
 
-‎```python
+```python
 ‎import requests
 ‎import json
 ‎
@@ -101,7 +109,7 @@ response = urlopen(url).read()
 ‎print(json.dumps(info,indent=4))
 ‎
 ‎print(info)
-‎```
+```
 
 
 ### Key Terms:
@@ -117,10 +125,10 @@ response = urlopen(url).read()
 
 ## 🎯 Summary
 ‎
-*‎Web Scraping*: Extract HTML data
+**‎Web Scraping**: Extract HTML data
 ‎
-‎*JSON*: Format for sending & receiving data
+‎**JSON**: Format for sending & receiving data
 ‎
-*‎APIs*: Get real online data using Python
+**APIs**: Get real online data using Python
 ‎
 ‎
